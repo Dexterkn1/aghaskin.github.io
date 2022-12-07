@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AghaSkin</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/images/aghaskin.png" rel="icon">
+  <link href="static/images/aghaskin.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/styles/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/styles/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/styles/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/styles/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/styles/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/styles/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <!--- <link href="static/styles/css/dashboard-style.css" rel="stylesheet"-->
+  <link href="{{ url_for('static', filename='styles/css/dashboard-style.css') }}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.11.1
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="dashboard.html" class="logo d-flex align-items-center">
+        <!-- <img src="static/images/logo.png" alt=""> -->
+        <img src="{{url_for('static', filename='images/logo.png')}}" >
+        <span>AghaSkin</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Skin Type</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="{{url_for('index')}}">ChatBot</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Your Solution Skin Problem</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Helping Your Skin Problem From Everywhere!</h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Try Us</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 aghaskin" data-aos="zoom-out" data-aos-delay="200">
+          <!-- <img src="static/images/aghaskin.png" class="img-fluid" alt=""> -->
+          <!-- <img src="{{url_for('static', filename='images/#')}}" class="img-fluid"> -->
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h1 style="color: #1519e2;">About Us</h1>
+              <p>
+                AghaSkin merupakan website yang didesign untuk membantu user dalam mengkonsultasikan permasalahan kulit wajah mereka. Melalui website ini, user diharapkan dapat terbantu dengan semua informasi yang diberkan oleh AghaSkin agar user lebih terarah dan tahu bagaimana cara merawat kulit wajah yang baik dan benar.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="{{url_for('index')}}" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>ChatBot</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <!-- <img src="static/images/cover.jpg" class="img-fluid" alt=""> -->
+            <img src="{{url_for('static', filename='images/aghaskin.png')}}" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Why Us?</p>
+        </header>
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="content">
+            <p>
+              Website AghaSkin didesign untuk memudahkan para user dalam merawat kullit wajah melalui beberapa fitur, seperti chatbot dan fitur lainnya. Chatbot ini menyediakan informasi sekitar permasalahan kulit dan user akan mendapatkan jawaban atau respon yang baik.
+            </p>
+            <div class="text-center text-lg-start">
+              <a href="https://youtu.be/zo_dKkdFkpI" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Watch here</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Values Section -->
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Skin Type</p>
+        </header>
+
+        <div class="row gy-8" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: #07d5c0;">Kulit Normal</h3>
+              <!-- <img src="static/images/normal.png" class="img-fluid" alt=""> -->
+              <img src="{{url_for('static', filename='images/normal.png')}}" class="img-fluid">
+              <ul>
+                <li>Kulit tidak berminyak dan tidak kering</li>
+                <li>Ada sedikit perubahan warna</li>
+                <li>Tidak bernoda</li>
+                <li>Kulit terasa halus</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h3 style="color: #65c600;">Kulit Berminyak</h3>
+              <!-- <img src="static/images/oily.png" class="img-fluid" alt=""> -->
+              <img src="{{url_for('static', filename='images/oily.png')}}" class="img-fluid">
+              <ul>
+                <li>Kulit terlihat mengkilap</li>
+                <li>Pori-pori besar</li>
+                <li>Kulit rentan berjerawat</li>
+                <li>Kulit rentan berkomedo</li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: #ff901c;">Kulit Kering</h3>
+              <!-- <img src="static/images/dry.png" class="img-fluid" alt=""> -->
+              <img src="{{url_for('static', filename='images/dry.png')}}" class="img-fluid">
+              <ul>
+                <li>Kulit bersisik, terasa kering dan kasar</li>
+                <li>Kulit terlihat ketat</li>
+                <li>Kulit terlihat kusam </li>
+                <li>Kulit bergaris halu lebih cepat</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #ff0071;">Kulit Sensitif</h3>
+              <!-- <img src="static/images/sensitive.png" class="img-fluid" alt=""> -->
+              <img src="{{url_for('static', filename='images/sensitive.png')}}" class="img-fluid">
+              <ul>
+                <li>Kulit banyak bercak atau noda</li>
+                <li>Bintik kemerahan</li>
+                <li>Kapiler rusak</li>
+                <li>Kulit terasa gatal</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: #2ab363;">Kulit Kombinasi</h3>
+              <!-- <img src="static/images/combination.png" class="img-fluid" alt=""> -->
+              <img src="{{url_for('static', filename='images/combination.png')}}" class="img-fluid">
+
+              <ul>
+                <li>Berminyak didaerah tertentu</li>
+                <li>Kulit kering didaerah tertentu</li>
+                <li>Rentan adanya komedo</li>
+                <li>Pori-pori besar</li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Our Team</p>
+        </header>
+
+        <div class="row col-lg-15 offset-lg-1">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <!-- <img src="static/images/team/amelll.jpg" class="img-fluid" alt=""> -->
+                <img src="{{url_for('static', filename='images/AMELFIX.jpg')}}" class="img-fluid">
+                <div class="social">
+                  <a href="https://www.instagram.com/ameliaa.isk/?igshid=YmMyMTA2M2Y%3D"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Amelia Iskandar Putri</h4>
+                <span>Editor Dataset</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <!-- <img src="static/images/team/mitaa.jpg" class="img-fluid" alt=""> -->
+                <img src="{{url_for('static', filename='images/MITAFIX.jpg')}}" class="img-fluid">
+                <div class="social">
+                  <a href="https://instagram.com/mitanggrr?igshid=YmMyMTA2M2Y="><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mita Anggreani</h4>
+                <span>Back End Devloper</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <!-- <img src="static/images/team/adrii.jpg" class="img-fluid" alt=""> -->
+                <img src="{{url_for('static', filename='images/ADRIFIX.jpg')}}" class="img-fluid">
+                <div class="social">
+                  <a href="https://www.instagram.com/adrifarqan/"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Muhammad Adri Farqan</h4>
+                <span>Front End Devloper</span>
+              </div>
+            </div>
+          </div> 
+          
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <!-- <img src="static/images/team/nadiraa.jpg" class="img-fluid" alt=""> -->
+                <img src="{{url_for('static', filename='images/NADIRAFIX.jpg')}}" class="img-fluid">
+                <div class="social">
+                  <a href="https://www.instagram.com/nadiranrlt"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Nadira Nurulita</h4>
+                <span>Modeling</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <!-- <img src="static/images/team/puspaa.jpg" class="img-fluid" alt=""> -->
+                <img src="{{url_for('static', filename='images/PUSPAFIX.jpg')}}" class="img-fluid">
+                <div class="social">
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Puspajani</h4>
+                <span>UI/UX</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p> aghaskin12345@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>AghaSkin</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/styles/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/styles/vendor/aos/aos.js"></script>
+  <script src="static/styles/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/styles/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/styles/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/styles/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/styles/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <!-- <script src="static/js/main.js"></script> -->
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>

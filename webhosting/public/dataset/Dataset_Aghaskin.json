@@ -1,0 +1,2000 @@
+
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "helo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Aghaskin di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya Aghaskin, salam kenal ya! Ada yang bisa saya bantu?",
+        "Helo! Ini Aghaskin. Kulit wajah kamu lagi bermasalah ya? Jangan khawatir ya, Aghaskin akan membantu kamu"
+      ]
+    },
+    {
+      "tag": "Aghaskin",
+      "patterns": [
+        "Apa itu Aghaskin?",
+        "Siapa itu Aghaskin?",
+        "kamu siapa?",
+        "Aghaskin itu apa?",
+        "siapa kamu?",             
+        "ini siapa"
+      ],
+      "responses": [
+        "Saya adalah Aghaskin. Aghaskin adalah aplikasi chatbot yang membantu kamu untuk mengkonsultasikan permasalahan seputar kulit wajah kamu. Eitss jangan khawatir, selain itu Aghaskin juga mempunyai tips skincare khusus buat kamu lho!",
+        "Hai, ini Aghaskin. Aghaskin adalah penyelamat disaat kamu mempunyai masalah seputar kulit wajah kamu. Jangan khawatir ya, aku pasti bantu kamu!"
+      ]
+    },
+    {
+      "tag": "pencipta",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Kamu dibuat oleh siapa?",
+        "Siapa yang membuatmu?",
+        "Siapa yang menciptakanmu?",
+        "Siapa penciptamu, Aghaskin?",
+        "Siapa penciptamu?",
+        "siapakah yang membuatmu?",
+        "penciptamu",
+        "pembuatmu",
+        "yang membuatmu",
+        "dibat oleh siapa",
+        "diciptakan siapa?"
+
+      ],
+      "responses": [
+        "Aghaskin diciptakan oleh mahasiswa dan mahasiswi dari program Studi Independen di Power Academy yang memiliki ide kreatif dan semangat team yang luar biasa. Lihat! buktinya sekarang aku ada di sini untuk membantu kamu",
+        "Pembuat Aghaskin adalah Team Arrubar yang berasal dari kelas Ruby lho!",
+        "Penciptaku berasal dari team mahasiswa yang kreatif, sehingga mereka bisa menciptakan saya!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "Senang bertemu denganmu",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati",
+        "Sama-sama ya, aku senang bisa membantu kamu",
+        "Kembali kasih, senang bisa membantu. Semoga harimu menyenangkan:)"
+      ]
+    },
+    {
+      "tag": "penjelasan_kondisi_wajah",
+      "patterns": [
+        "Aku lagi sedih nih",
+        "Kamu bisa bantu aku gak?",
+        "Tolong bantu aku",
+        "Kulit wajahku bermasalah",
+        "Tolong",
+        "Bantu",
+        "Tolong aku",
+        "Bantu aku",
+        "Aku insecure",
+        "kondisi wajah",
+        "wajah bermasalah",
+        "kulit bermasalah",
+        "masalah wajah",
+        "masalah kulit",
+        "aku punya masalah",
+        "aku punya masalah kulit"
+      ],
+      "responses": [
+        "Hai, jangan khawatir ya, aku pasti bantu kamu.Kamu lagi kenapa nih?",
+        "Dengan senang hati Aghaskin akan membantu kamu",
+        "Apa yang bisa Aghaskin lakukan untuk kamu?",
+        "Don't Worry! Yuk ceritakan kondisi wajahmu di sini"
+      ]
+    },
+    { 
+      "tag": "pengertian_jerawat",
+      "patterns": [
+        "Wajah ku lagi jerawatan?",
+        "Apa itu jerawat?",
+        "kulit berjerawat",
+        "wajah berjerawat",
+        "aku punya jerawat",
+        "aku jerawatan",
+        "jerawat nih",
+        "aduh ada jerawat",
+        "Jerawat",
+        "jerawatan",
+        "berjerawat",
+        "Aku lagi jerawatan",
+        "apa sih ciri ciri jerawat",
+        "apa ciri ciri jerawat",
+        "ciri ciri jerawat"
+
+      ],
+      "responses": [
+        "Jerawat adalah keadaan dimana pori-pori kulit tersumbat sehingga menimbulkan kantung nanah yang meradang",
+        "Jerawat merupakanasalah kulit yang sering terjadi yang biasanya disebabkan oleh tersumbatnya pori-pori kulit"
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_berjerawat",
+      "patterns": [
+        "Apa penyebab jerawat?",
+        "sebab jerawat",
+        "Kenapa wajahku berjerawat?",
+        "Apa faktor jerawat?",
+        "muncul jerawat",
+        "Kenapa jerawat muncul?"
+      ],
+      "responses": [
+        "Penyebab jerawat bermacam-macam, yaitu karena minyak berlebih yang menyumbat pori-pori, bakteri, faktor genetik, penggunaan skincare ataupun make-up yang kurang cocok pada kulit seseorang",
+        "Jerawat juga bisa muncul akibat sedang stres atau hormon yang tidak stabil. Jangan khawatir Aghaskin punya tips untuk kamu, coba ketik so;usi untuk jerawat"
+      ]
+    },
+    {
+      "tag": "solusi_wajah_berjerawat",
+      "patterns": [
+        "Apa solusi untuk wajah berjerawat?",
+        "solusi jerawat",
+        "apa solusi untuk jerawat",
+        "jerawat solusi",
+        "solusi untuk jerawat",
+        "solusi jerawat dong",
+        "solusi buat jerawat",
+        "solusi untuk jerawat",
+        "solusi wajah berjerawat"
+      ],
+      "responses": [
+        "Kamu bisa mencuci muka secara rutin, biasanya sabun yang digunakan untuk kulit berjerawat adalah sabun dengan tekstur lembut. Selain itu bisa menggunakan rangkaian skincare, tetapi untuk menggunakan tipe skincarean yang tepat ada baiknya konsultasi terlebih dahulu dengan dokter kulit/kecantikan.",
+        "Ketika kulit wajah sedang meradang, ada baiknya hanya menggunakan basic skincare terlebih dahulu, seperti facial wash yang gentle, toner yang bersifat calming, dan moisturizer yang bersifat soothing, serta tidak lupa menggunakan sunscreen ketika berpergian ke luar di siang hari"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_berjerawat",
+      "patterns": [
+        "Bagaimana cara merawat wajah berjerawat?",
+        "Tips merawat wajah berjerawat",
+        "merawat jerawat",
+        "rawat jerawat",
+        "tips merawat jerawat",
+        "tips jerawat",
+        "apa tips merawat jerawat",
+        "bagaimana merawat jerawat"
+        
+
+      ],
+      "responses": [
+        "Cara merawat wajah berjerawat adalah dengan rutin  menggunakan skincare, jangan menyentuh kulit wajah dalam keadaan tangan yang kotor, usahakan memakai masker disaat berpergian, dan rutin mencuci wajah kamu ya!",
+        "Jangan khawatir, ya! Nih Aghaskin kasih beberapa tips untuk merawat kulit berjerawat. Ada banyak cara yang bisa dilakukan untuk merawat kulit berjerawat. Pertama dengan mencuci muka dua (2) kali dalam sehari, menggunakan toner dan moisturizer yang cocok, serta lindungi kulit wajah dari paparan sinar matahari dengan penggunaan sunscreen, hindari menyentuh atau memecahkan jerawat, melakukan double-cleansing sesudah penggunaan make-up, menggunakan produk perawatan kulit untuk wajah berjerawat, dan tidak lupa mengkonsumsi makanan yang sehat juga, ya!"
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_berjerawat",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah berjerawat?",
+        "Skincare untuk wajah berjerawat?",
+        "skincare wajah berjerawat",
+        "skincare jerawat",
+        "skincare untuk kulit jerawat",
+        "skincare untuk jerawat"
+        
+      ],
+      "responses": [
+        "Ketika wajah kamu sedang berjerawat coba pakai skincare yang mempunyai kandungan seperti Salicylic acid, Hyaluronic acid, Niacinamide, Vitamin C, Greentea, Tree tea, AHA BHA. Kamu bisa cari produk yang mengandung kandungan tersebut ya, mulai sekarang coba pilih skincare yang mempunyai beberapa kandungan yang telah disebutkan"
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_berjerawat",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah berjerawat",
+        "hindari jerawat",
+        "hindari hal jerawat",
+        "hal yang dihindari agar tidak berjerawat",
+        "menghindari jerawat"
+        
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya jerawat di wajah, sebaiknya hindari konsumsi makanan cepat saji secara berlebihan, makanan yang mengandung kacang, dan hindari tidur larut malam"
+      ]
+    },
+    { 
+      "tag": "pengertian_bruntusan",
+      "patterns": [
+        "Wajahku lagi bruntusan",
+        "Apa itu beruntusan?",
+        "kulit bruntusan",
+        "wajah bruntusan",
+        "aku punya bruntusan",
+        "aku bruntusan",
+        "bruntusan nih",
+        "bruntusan",
+        "beruntusan",
+        "apa sih ciri ciri bruntusan",
+        "apa ciri ciri bruntusan",
+        "ciri ciri bruntusan",
+        "aku lagi beruntusan"
+
+      ],
+      "responses": [
+        "Bruntusan adalah kondisi yang menggambarkan keadaan kulit yang permukaannya terasa kasar dan tidak rata.",
+        "Bruntusan terasa seperti bintik-bintik kecil yang menonjol pada kulit yang umumnya muncul pada area wajah seperti dahi, hidung, atau dagu."
+      ]
+    }, 
+    {
+      "tag": "penyebab_wajah_bruntusan",
+      "patterns": [
+        "Apa penyebab bruntusan?",
+        "sebab bruntusan",
+        "muncul bruntusan",
+        "Kenapa wajahku bruntusan?",
+        "Apa faktor bruntusan?",
+        "faktor bruntusan",
+        "Kenapa bruntusan muncul?"
+      ],
+      "responses": [
+        "Munculnya bruntusan di wajah umumnya disebabkan oleh tanda alergi. Selain itu, pori-pori yang menumpuk bisa terjadi akibat perubahan hormon atau kebiasaan yang buruk.",
+        "Bruntusan juga bisa muncul akibat sedang stres atau hormon yang tidak stabil, kurang tidur, atau makan sembarangan."
+      ]
+    },
+    {
+      "tag": "solusi_wajah_bruntusan",
+      "patterns": [
+        "Apa solusi untuk wajah bruntusan?",
+        "Bagaimana cara menangani wajah bruntusan?",
+        "solusi beruntusan",
+        "solusi bruntusan",
+        "solusi wajah beruntusan",
+        "bruntusan solusi",
+        "solusi buat bruntusan",
+        "solusi wajah bruntusan",
+        "solusi untuk bruntusan,"
+        
+      ],
+      "responses": [
+        "Kamu bisa mencuci muka secara rutin, biasanya sabun yang digunakan untuk kulit bruntusan adalah sabun dengan tekstur lembut. Selain itu bisa menggunakan rangkaian skincare, tetapi untuk menggunakan tipe skincarean yang tepat ada baiknya konsultasi terlebih dahulu dengan dokter kulit/kecantikan.",
+        "Kamu juga bisa menghindari pencetus alergi atau iritasi yang bisa menyebabkan bruntusan."
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_bruntusan",
+      "patterns": [
+        "Bagaimana cara merawat wajah bruntusan?",
+        "Tips merawat wajah bruntusan",
+        "merawat beruntusan",
+        "rawat bruntusan",
+        "apa tips merawat bruntusan",
+        "bagaimana merawt bruntusan"
+
+      ],
+      "responses": [
+        "Cara merawat wajah bruntusan adalah rutin menggunakan skincare, jangan menyentuh kulit wajah dalam keadaan tangan yang kotor, usahakan memakai masker disaat berpergian, dan rutin mencuci wajah kamu ya!",
+        "Jangan lupa untuk melakukan eksfoliasi agar sel kulit mati kamu dapat terangkat!"
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_bruntusan",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah bruntusan?",
+        "Skincare untuk wajah bruntusan?",
+        "skincare bruntusan",
+        "skincare untuk kulit bruntusan",
+        "skincare untuk bruntusan"
+        
+      ],
+      "responses": [
+        "Ketika wajah kamu sedang bruntusan coba pakai skincare yang mempunyai kandungan seperti AHA & BHA, Benzoil peroksida, Salicylic acid. Kamu bisa cari produk yang mengandung kandungan tersebut ya, mulai sekarang coba pilih skincare yang mempunyai beberapa kandungan yang telah disebutkan"
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_bruntusan",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah bruntusan",
+        "agar tidak beruntusan",
+        "agar tidak bruntusan",
+        "supaya tidak bruntusan",
+        "hindari bruntusan",
+        "hindari hal bruntusan",
+        "hal yang dihindari agar tidak bruntusan",
+        "menghindari bruntusan"
+      ], 
+      "responses": [
+        "Untuk meminimalisir bruntusan, kamu bisa batasi konsumsi makanan yang mengandung karbohidrat tinggi dan gula tambahan. Selain itu, kamu juga harus menghindari membasuh wajah dengan air panas dan jangan menyentuh serta menggaruk kulit dengan tangan kotor."
+      ]
+    },
+    { 
+      "tag": "pengertian_kulit_kusam",
+      "patterns": [
+        "Wajahku kusam",
+        "Apa itu kulit kusam?",
+        "Kulit wajahku terlihat kusam",
+        "wajahku sedang kusam",
+        "apa itu kulit kusam",
+        "kulit kusam",
+        "wajah kusam",
+        "aku punya kulit kusam",
+        "kulitku kusam nih",
+        "kusam nih",
+        "aduh kusam",
+        "aku lagi kusam",
+        "kusam banget",
+        "apa sih ciri ciri kulit kusam",
+        "apa ciri ciri kulit kusam",
+        "ciri ciri kulit kusam"
+
+      ],
+      "responses": [
+        "Kulit kusam adalah keadaan dimana kulit terasa terlihat lebih gelap dan tidak cerah.",
+        "kulit kusam adalah kondisi yang ditandai dengan tampilan wajah yang tampak tidak sehat, kurang bercahaya, dan tidak bersemangat."
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_kulit kusam",
+      "patterns": [
+        "Apa penyebab kulit kusam",
+        "Kenapa wajahku kusam?",
+        "sebab kusam",
+        "penyebab kusam",
+        "muncul kusam",
+        "Apa faktor kulit kusam?",
+        "Kenapa kulit kusam muncul?"
+      ],
+      "responses": [
+        "Penyebab kulit kusam yang pertama adalah jenis sinar ultraviolet yang terkandung dalam sinar matahari, yaitu sinar UVA. Selain sinar UVA, sinar UVB juga dapat menjadi penyebab kulit kusam.",
+        "Kulit kusam juga disebabkan oleh polusi udara yang mengandung partikel debu atau kotoran hingga emisi asap kendaraan."
+      ]
+    },
+    {
+      "tag": "solusi_wajah_kulit_kusam",
+      "patterns": [
+        "Apa solusi untuk wajah kulit kusam?",
+        "Apa solusi untuk wajah kusam?",
+        "Bagaimana cara menangani wajah kusam?",
+        "solusi kusam",
+        "solusi kulit kusam",
+        "solusi wajah kusam",
+        "kusam solusi",
+        "solusi buat kusamn",
+        "solusi wajah kusam",
+        "solusi untuk kusam"
+        
+      ],
+      "responses": [
+        "Untuk mengatasi penyebab kulit kusam yang satu ini, lindungi kulit dengan sunscreen atau tabir surya berlabel PA dan SPF.",
+        "Solusi untuk wajah kusam juga bisa dengan membersihkan dan cuci wajah terutama saat hendak tidur atau sehabis beraktivitas.",
+        "Cara mengatasi kulit kusam bisa dengan melakukan eksfoliasi kulit maksimal 2 minggu sekali"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_kulit_kusam",
+      "patterns": [
+        "Bagaimana cara merawat wajah kulit kusam?",
+        "Tips merawat wajah kulit kusam",
+        "merawat kulit kusam",
+        "rawat kusam",
+        "tips kulit kusam",
+        "bagimana merawat kulit kusam"
+
+      ],
+      "responses": [
+        "Cara merawat wajah kulit kusam adalah rutin membersihkan wajah, menggunakan pelembab sesuai jenis kulit, menggunalan masker, dan melakukan eksfoliasi",
+        "Jangan khawatir ya nih Aghaskin kasih beberapa tips, untuk merawat kulit kusam ada banyak cara yang bisa dilakukan, yaitu dengan melakukan eksfoliasi kulit dan tidak lupa menggunakan sunscreen saat beraktivitas di luar ruangan."
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_kulit_kusam",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah kulit kusam?",
+        "Skincare untuk kulit kusam?",
+        "skincare wajah kusam",
+        "apa saja skincare untuk wajah kusam",
+        "skincare kusam",
+        "skincare untuk kulit kusam",
+        "skincare untuk kusam"
+
+        
+      ],
+      "responses": [
+        "Ketika kulit wajah kamu kusam, gunakan sunscreen yang berlabel PA dan SPF",
+        "Kamu bisa menggunakan skincare yang memiliki kandungan vitamin C, niacinamide, hyluronic acid, glycolic acid, centella asiatica, dan kojic acid."
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_kulit_kusam",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wwajah kulit kusam",
+        "hindari kusam",
+        "menghindari kulit kusam",
+        "hindari hal bruntusan",
+        "hal yang harus dihindari agar tidak kusam"
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya kulit kusam di wajah, sebaiknya hindari paparan sinar matahari secara langsung.",
+        "Jangan membiarkan kulit dehidrasi atau kering."
+      ]
+    },
+    { 
+      "tag": "pengertian_flek_hitam",
+      "patterns": [
+        "Wajah ku lagi flek hitam?",
+        "Apa itu flek hitam?",
+        "flek hitam",
+        "Terdapat flek hitam di wajahku",
+        "flek",
+        "aku punya flek hitam",
+        "flek hitam nih",
+        "aku lagi flek hitam",
+        "apa sih ciri ciri flek hitam",
+        "apa ciri ciri flek hitam",
+        "ciri ciri flek hitam"
+      ],
+      "responses": [
+        "flek hitam adalah masalah kulit yang ditandai dengan munculnya bintik hitam pada wajah.",
+        "flek hitam merupakan kumpulan pigmen alami, atau melanin, yang berisi melanosome."
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_flek_hitam",
+      "patterns": [
+        "Apa penyebab flek hitam?",
+        "Kenapa wajahku mengalami flek hitam?",
+        "Apa faktor flek hitam?",
+        "Kenapa flek hitam muncul?",
+        "sebab fek hitam",
+        "kenapa wajahku ada flek hitam",
+        "kenapa wajahku hitam",
+        "faktor flek hitam",
+        "muncul flek hitam",
+        "kenapa flek hitam muncul"
+
+      ],
+      "responses": [
+        "Flek hitam muncul karena peningkatan produksi melanin di kulit, terutama setelah terpapar sinar matahari atau sinar ultraviolet.",
+        "Flek hitam muncul saat kulit menyerap sinar ultraviolet sehingga produksi melanin meningkat. Bagian kulit yang memiliki banyak melanin atau mengalami penumpukan melanin akan berwarna lebih gelap dibandingkan kulit sekitarnya sehingga tampak seperti bintik-bintik.",
+        "Flek hitam bisa disebabkan oleh faktor genetik."
+      ]
+    },
+    {
+      "tag": "solusi_wajah_flek_hitam",
+      "patterns": [
+        "Apa solusi untuk wajah flek hitam?",
+        "solusi flek hitam",
+        "Apa solusi untuk flek hitam",
+        "flek hitam solusi",
+        "solusi untuk flek hitam",
+        "solusi flek hitam apa",
+        "solusi flek hitam dong",
+        "solusi buat flek hitam",
+        "solusi untuk flek",
+        "solusi kulit flek hitam",
+        "solusi wajah flek hitam"
+        
+      ],
+      "responses": [
+        "Hindari aktivitas di luar ruangan saat sinar matahari bersinar terik.",
+        "Gunakan tabir surya yang mengandung SPF 30 atau lebih saat akan keluar rumah.",
+        "Gunakan serum yang berguna untuk mencerahkan wajah"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_flek hitam",
+      "patterns": [
+        "Bagaimana cara merawat wajah flek hitam?",
+        "Tips merawat wajah flek hitam",
+        "merawat flek hitam",
+        "rawat flek",
+        "rawat flek hitam",
+        "merawat flek",
+        "tips merawat flek",
+        "tips merawat flek hitam",
+        "apa tips merawat flek hitam",
+        "bagaimana merawat flek hitam"
+  
+
+      ],
+      "responses": [
+        "Membersihkan wajah secara menyeluruh, melakukan perawatan yang intensif, menjaga kelembapan kulit, dan mencegah munculnya flek hitam dengan menggunakan sunscreen."
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_flek_hitam",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah flek hitam?",
+        "Skincare untuk wajah flek hitam?",
+        "skincare wajah flek hitam",
+        "skncare flek hitam",
+        "skincare untuk kulit flek hitam",
+        "skincare untuk flek hitam "
+        
+      ],
+      "responses": [
+        "Ketika wajah kamu mengalami flek hitam coba pakai skincare yang mempunyai kandungan seperti vitamin c, niacinamide, dan azelaic acid."
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_flek_hitam",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah mengalami flek hitam",
+        "hindari flek hitam",
+        "hindari flek hitam",
+        "hindari flek",
+        "menghindari flek hitam",
+        "hal apa yang harus dihindari agar tidak flek hitam",
+        "agar flek hitam tidak muncul"
+      ], 
+      "responses": [
+        "Hindari paparan sinar matahari secara langsung dan tidak menggunakan skincare yang berbahan merkuri."
+      ]
+    },
+    { 
+      "tag": "pengertian_kulit_berminyak",
+      "patterns": [
+        "Wajah kulit ku berminyak",
+        "Apa itu kulit berminyak?",
+        "Kulit wajahku berminyak",
+        "wajah berminyak",
+        "aku punya muka berminyak",
+        "muka berminyak",
+        "aku berminyak",
+        "kulitku berminyak nih",
+        "kulit berminyak",
+        "berminyak",
+        "minyak",
+        "aku lagi berminyak",
+        "apa sih ciri ciri berminyak",
+        "apa ciri ciri berminyak",
+        "ciri ciri berminyak"
+      ],
+      "responses": [
+        "Kulit berminyak merupakan kondisi ketika kelenjar sebasea pada kulit menghasilkan terlalu banyak sebum. Sebum adalah minyak alami yang berfungsi melapisi kulit dan rambut. Produksi sebum berlebih membuat kulit terlihat mengkilap dan berkilau"
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_Kulit_berminyak",
+      "patterns": [
+        "Apa penyebab Kulit berminyak?",
+        "sebab berminyak",
+        "sebab minyak",
+        "faktor berminyak",
+        "muncul minyak",
+        "kenapa minyak muncul",
+        "kenapa wajahku berminyak",
+        "Kenapa wajahku Kulit berminyak?",
+        "Apa faktor Kulit berminyak?",
+        "Kenapa Kulit bisa berminyak?"
+      ],
+      "responses": [
+      "Penyebab kulit wajah berminyak ada beragam, seperti perubahan hormon, faktor genetik, usia, pola makan yang buruk, perubahan iklim atau udara. Jenis kulit wajah ini ditandai dengan adanya kilap pada wajah, terutama di zona T, yaitu dahi, hidung, dan dagu.",
+      "Kulit berminyak juga bisa disebabkan oleh kulit yang dehidrasi, sehingga kulit akan menghasilkan minyak secara berlebih" 
+      ]
+    },
+    {
+      "tag": "solusi_wajah_Kulit_berminyak",
+      "patterns": [
+        "Apa solusi untuk wajah Kulit berminyak?",
+        "solusi berminyak",
+        "solusi minyak",
+        "minyak solusi",
+        "solusi buat wajah berminyak",
+        "solusi untuk berminyak",
+        "solusi kulit berminyak dong",
+        "Solusi untuk kulit berminyak",
+        "Apa solusi untuk wajah berminyak?"
+        
+      ],
+      "responses": [
+        "Aghaskin punya solusi nih, kamu bisa mencuci muka secara teratur, lalu gunakan air hangat untuk mencuci muka, keringkan wajah dengan benar, gunakan toner yang yang dapat mengatur produksi minyak agar tidak berlebih, gunakan pelembab yang dapat memberikan efek calming"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_Kulit_berminyak",
+      "patterns": [
+        "Bagaimana cara merawat wajah Kulit berminyak?",
+        "Tips merawat wajah Kulit berminyak",
+        "merawat berminyak",
+        "merawat kulit berminyak",
+        "merawat wajah berminyak",
+        "tips merawat berminyak ",
+        "tips berminyak",
+        "tips untuk berminyak",
+        "apa tips merawat minyak",
+        "bagaimana merawat minyak"
+
+      ],
+      "responses": [
+        "Cara merawat wajah Kulit berminyak adalah rutin menggunakan basic skincare, jangan menyentuh kulit wajah dalam keadaan tangan yang kotor, usahakan memakai masker disaat berpergian, dan rutin mencuci wajah kamu ya!",
+        "Jangan khawatir ya nih Aghaskin kasih beberapa tips, untuk merawat kulit berminyak, ada banyak cara yang bisa dilakukan untuk merawat kulit berminyak.  Pertama dengan mencuci muka 2 kali dalam sehari, menggunakan toner dan moisturizer yang cocok, serta lindungi kulit wajah dari paparan sinar matahari dengan penggunaan sunscreen, melakukan double-cleansing sesudah penggunaan make-up, menggunakan produk perawatan kulit untuk wajah berminyak, dan tidak lupa kurangi konsumsi makanan yang berminyak ya!"
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_Kulit_berminyak",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah Kulit berminyak?",
+        "Skincare untuk wajah Kulit berminyak?",
+        "skincare wajah berminyak",
+        "skincare berminyak",
+        "skincare kulit berminyak",
+        "skincare untuk kulit berminyak",
+        "skincare untuk berminyak"
+        
+      ],
+      "responses": [
+        "Ketika wajah kamu sedang Kulit berminyak coba pakai skincare yang mempunyai kandungan seperti Salicylic acid, Hyaluronic acid, Niacinamide, Vitamin C, Sulfur, Retinol, AHA BHA. Kamu bisa cari produk yang mengandung kandungan tersebut ya, mulai sekarang coba pilih skincare yang mempunyai beberapa kandungan yang telah disebutkan tadi"
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_Kulit_tidak_berminyak",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah Kulit berminyak?",
+        "hindari kulit berminyak",
+        "hindari minyak",
+        "hindar hal berminyak",
+        "hal yang harus dihindari agar tidak berminyak",
+        "agar tidak berminyak",
+        "menghindari kulit berminyak",
+        "hal yang harus dihindari agar tidak berminyak"
+      ],
+      "responses": [
+        "Untuk meminimalisir datangnya Kulit berminyak di wajah, sebaiknya hindari pemakaian makeup tebal, hindari pemakaian skincare berlebih, kurangi konsumsi makanan yang mengandung banyak minyak & lemak , dan pastikan tidur kamu cukup ya!"
+      ]
+    },
+    { 
+      "tag": "pengertian_kulit_kering",
+      "patterns": [
+        "Wajah Kulitku kering?",
+        "Apa itu kulit kering?",
+        "Kulit wajahku kering",
+        "kulit kering",
+        "wajah kering",
+        "wajahku kering",
+        "kering nih",
+        "aduh kulit ku kering",
+        "kering",
+        "apa sih ciri ciri kulit kering",
+        "apa ciri ciri kulit kering",
+        "ciri ciri kulit kering"
+      ],
+      "responses": [
+        "Kulit kering adalah  kondisi ketika lapisan terluar kulit (epidermis) kekurangan kadar air secara berlebihan. Hal ini menyebabkan kulit kehilangan kelembapan yang cukup untuk mempertahankan kelembutan dan elastisitasnya"
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_kulit_kering",
+      "patterns": [
+        "Apa penyebab kulit kering?",
+        "Kenapa wajah kulitku kering?",
+        "Apa faktor kulit kering?",
+        "Kenapa kulit kering ?",
+        "sebab kulit kering",
+        "sebab wajah kering",
+        "faktor kulit kering",
+        "kenapa kulit kering",
+        "muncul kulit kering"
+
+      ],
+      "responses": [
+        "Penyebab kulit kering bermacam-macam, pemicunya bisa beragam, mulai dari paparan debu dan polusi, antiseptik pada sabun mandi, alkohol pada parfum, hingga deterjen pada sabun cuci",
+        "Selain faktor genetik, kulit kering juga bisa disebabkan oleh faktor cuaca yang terlalu dingin"
+      ]
+    },
+    {
+      "tag": "solusi_wajah_kulit_kering",
+      "patterns": [
+        "Apa solusi untuk wajah kulit kering?",
+        "solusi wajah kering",
+        "solusi kulit kering",
+        "apa solusi untuk wajah kering",
+        "apa solusi untuk kulit kering",
+        "kulit kering solusi",
+        "solusi agar wajah tidak kering"
+
+
+        
+      ],
+      "responses": [
+        "Untuk mengatasinya coba penuhi asupan air putih, hindari mandi memakai air panas, dna memakai skincare yang lembut & melembapkan",
+        "Ketika kulit wajah sedang kering, ada baiknya hanya menggunakan basic skincare terlebih dahulu, seperti facial wash yang gentle, toner yang bersifat moisturizing dan moisturizer, serta bisa juga dengan menggunakan face oil agar kulit menjadi lebih lembab."
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_kulit_kering",
+      "patterns": [
+        "Bagaimana cara merawat wajah kulit kering?",
+        "Tips merawat wajah kulit kering",
+        "merawat wajah kering",
+        "merawat kulit kering",
+        "tips merawat kulit kering",
+        "tips merawat wajah agar tidak kering",
+        "rawat kulit kering",
+        "rawat wajah kering",
+        "tips kulit kering",
+        "apa tips merawat kulit kering",
+        "bagaimana merawat kulit kering",
+        "bagaiamana merawat wajah kering",
+        "cara merawat kulit kering"
+
+      ],
+      "responses": [
+        "Cara merawat wajah kulit kering adalah rutin menggunakan skincare yang bersifat moisturizing agar kulit keringmu dapat diminimalisir",
+        "Jangan khawatir ya nih Aghaskin punya beberapa tips, untuk merawat kulit kulit kering ada banyak cara yang bisa dilakukan untuk. Pakai Skincare yang lembut & melembapkan, Perbanyak makanan kaya antioksidan dan Omega, pakai pelembap udara atau air humidifier, dan hindari paparan sinar matahari langsung ya!"
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_kulit_kering",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah kulit kering?",
+        "Skincare untuk wajah kulit kering?",
+        "skincare wajah kering",
+        "skincare untuk kulit kering",
+        "skncare kulit kering",
+        "skincare untuk kulit yang keiring",
+        "apa skincare untuk kulit kering",
+        "apa skincare untuk wajah kering"
+        
+      ],
+      "responses": [
+        "Ketika kulit wajahmu kering coba pakai skincare yang mempunyai kandungan seperti aloe vera, glycerin, glycolic acid, lactic acid, dan ceramide. Nah coba pakai skincare yang punya kandungan tersebut ya!"
+      ]
+      },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_kulit_tidak_kering",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah kulit kering",
+        "hindari kulit kering",
+        "hindari wajah kering",
+        "menghindari kulit kering",
+        "menghindari wajah kering",
+        "hindari hal yang mmebuat kulit wajah kering"
+
+      
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya kulit kering di wajah, sebaiknya hindari konsumsi alkohol, daging olahan, makanan cepat saji secara berlebihan, margarin, dan hindari tidur larut malam yups!"
+      ]
+    }, 
+    { 
+      "tag": "pengertian_komedo",
+      "patterns": [
+        "Apa itu komedo?",
+        "wajahku berkomedo",
+        "komedo",
+        "wajahku berkomedo",
+        "kulit komedo",
+        "aku punya komedo",
+        "aku komedoan",
+        "aku berkomedo",
+        "komedoan",
+        "komedo nih",
+        "aduh ada komedo",
+        "aku punya jerawat",
+        "aku lagi komedoan",
+        "apa sih ciri ciri komedo",
+        "apa ciri ciri komedo",
+        "ciri ciri komedo"
+
+      ],
+      "responses": [
+        "Komedo adalah benjolan kecil di pori-pori kulit",
+        "Komedo umumnya terdapat di kulit wajah, tetapi juga bisa muncul di bagian tubuh lain, seperti bahu, dada, punggung, atau lengan"
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_komedo",
+      "patterns": [
+        "Apa penyebab komedo?",
+        "sebab komedo",
+        "sebab wajah berkomedo",
+        "faktor komedo",
+        "muncul komedo",
+        "Kenapa wajah ada komedo?",
+        "Apa faktor adanya komedo?",
+        "Kenapa komedo muncul?"
+      ],
+      "responses": [
+        "Penyebab komedo bermacam-macam, komedo terbentuk ketika sel kulit mati dan minyak menumpuk dan menyumbat pori-pori kulit. Minyak tersebut dihasilkan oleh kelenjar minyak (sebum) di dalam pori-pori",
+        "Komedo juga bisa muncul karena pola makan yang tidak sehat, seperti banyak asupan gula, tepung, dan keju. Peningkatan jumlah bakteri di permukaan kulit akibat kurangnya kebersihan kulit atau menurunnya daya tahan tubuh"
+      ]
+    },
+    {
+      "tag": "solusi_wajah_komedo",
+      "patterns": [
+        "Apa solusi untuk komedo?",
+        "apa solusi untuk wajah berkomedo",
+        "solusi komedo",
+        "komedo solusi",
+        "solusi untuk komedo",
+        "solusi kulit komedo",
+        "apa sih solusi untuk wajah yang berkomedo"
+        
+      ],
+      "responses": [
+        "Solusi untuk kamu yang memiliki komedo kamu bisa mencuci muka secara teratur dapat membantu mengurangi minyak dan membantu pengelupasan sel-sel kulit mati yang dapat menyumbat pori-pori. Jaga kebersihan tangan dan kuku untuk menghindari berpindahnya kotoran dari tangan dan kuku ke permukaan kulit, terutama wajah. Gunakan produk perawatan kulit untuk mengangkat kulit mati, seperti produk yang mengandung scrub atau masker untuk komedo.",
+        "Ketika komedo muncul cobalah untuk mengganti sarung bantal dan seprai seminggu sekali untuk menghilangkan sisa kotoran dan minyak pada tempat tidur, keramas setiap hari, terutama jika memiliki tipe rambut berminyak, agar kotoran rambut tidak menutupi pori-pori kulit wajah"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_berkomedo",
+      "patterns": [
+        "Bagaimana cara merawat wajah agar tidak ada komedo?",
+        "Tips merawat wajah berkomedo",
+        "merawat komedo",
+        "merawat wajah komedo",
+        "rawat komedo",
+        "tips komedo",
+        "apa tips merawat komedo",
+        "bagaimana merawat komedo"
+
+      ],
+      "responses": [
+        "Jangan khawatir ya nih, Aghaskin kasih beberapa tips untuk merawat wajah agar tidak muncul komedo. Ada banyak cara yang bisa dilakukan cobalah untuk menggunakan kosmetik atau skincare berbahan dasar air, bukan minyak, lalu bisa juga untuk pergi ke dokter kulit dan terapi menggunakan alat bernama loop extractor untuk menghilangkan komedo secara manual",
+        "Cara merawat kulit berkomedo juga bisa dilakukan dengan melakukan eksfoliasi maksimal dua kali dalam seminggu."
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_komedo",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah kulit komedo?",
+        "Skincare untuk wajah komedo?",
+        "skincare wajah komedo",
+        "skincare komedo",
+        "skincare untuk kulit komedo",
+        "skincare untuk komedo"
+
+        
+      ],
+      "responses": [
+        "Ketika kulit wajahmu muncul komedo, coba pakai skincare yang mempunyai kandungan seperti salicylic acid, benzoyl peroxide, retinol, glycolic acid,clay mask. Nah kamu bisa cari produk yang mengandung kandungan tersebut ya, mulai sekarang coba pilih skincare yang mempunyai beberapa kandungan yang telah disebutkan"
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_berkomedo",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah komedo",
+        "hindari komedo",
+        "menghindari komedo",
+        "bagaimana agar terhindar dari dari komedo",
+        "agar tidak komedoan"
+
+
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya komedo di wajah, sebaiknya hindari konsumsi makanan cepat saji secara berlebihan, makanan yang mengandung kacang dan susu, dan tingkatkan kualitas tidur kamu ya!"
+      ]
+    }, 
+    { 
+      "tag": "pengertian_milia",
+      "patterns": [
+        "Apa itu milia?",
+        "wajahku ada milia",
+        "wajah milia",
+        "milia",
+        "apa sih milia",
+        "milia apa sih",
+        "aku punya milia",
+        "milia nih",
+        "aduh ada milia",
+        "ada milia nih",
+        "apa sih ciri ciri milia",
+        "apa ciri ciri milia",
+        "ciri ciri milia"
+      ],
+      "responses": [
+        "milia adalah benjolan kecil berwarna putih yang umumnya tumbuh di bagian wajah",
+        "milia merupakan masalah kulit yang sering terjadi termasuk dalam kista epidermoid berwarna putih. Biasanya milia muncul pada area pipi dan hidung dan berkelompok. Jika hanya satu, kista ini disebut dengan milium."
+      ]
+    },
+    {
+      "tag": "penyebab_milia",
+      "patterns": [
+        "Apa penyebab milia?",
+        "Apa faktor adanya milia?",
+        "Kenapa milia muncul?",
+        "sebab milia",
+        "kenapa wajahku ada milia",
+        "kenapa ada milia",
+        "faktor milia muncul",
+        "muncul milia",
+        "apa faktor milia",
+        "kenapa ada milia"
+
+      ],
+      "responses": [
+        "Penyebab milia bermacam-macam, yaitu memiliki luka bakar atau terkena paparan cahaya matahari dalam waktu lama, lepuhan pada kulit yang terjadi karena racun, misalnya terkena paparan poison ivy",
+        "Milia juga bisa muncul akibat pemakaian krim steroid untuk jangka yang lama, pernah melakukan prosedur pelapisan laser atau dermabrasi untuk memperbaiki lapisan kulit"
+      ]
+    },
+    {
+      "tag": "solusi_wajah_milia",
+      "patterns": [
+        "Apa solusi untuk menghilangkan milia?",
+        "solusi milia",
+        "apa solusi untuk milia",
+        "apa solusi jika ada milia",
+        "solusi milia apa",
+        "milia solusi",
+        "solusi untuk milia",
+        "jika ada milia apa solusinya?"
+        
+      ],
+      "responses": [
+        "Kamu bisa mencuci muka secara rutin, kamu bisa memberikan perlindungan ekstra pada kulit untuk mencegah terjadinya milia sekunder, melakukan eksfoliasi kulit secara rutin untuk membantu mengangkat sel kulit mati juga bisa dilakukan untuk mencegah milia.",
+        "Ketika sedang muncul milian, cegah kulit terkena paparan sinar matahari berlebihan atau menggunakan produk kosmetik maupun perawatan kulit yang sesuai dengan jenis kulit"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_milia",
+      "patterns": [
+        "Bagaimana cara menghilangkan milia?",
+        "Tips merawat wajah kulit milia",
+        "merawat milia",
+        "menghilangkan milia",
+        "tips merawat milia",
+        "bagaimana merawat milia",
+        "rawat milia",
+        "hilang milia",
+        "agar milia hilang"
+
+      ],
+      "responses": [
+        "Apabila kamu merasa terganggu dan tidak nyaman dengan munculnya milia, kamu bisa menggunakan beberapa produk perawatan kulit wajah, seperti produk eksfoliasi yang mengandung asam salisilat, retinoid, atau asam alfa hidroksi yang bisa membantu mengangkat sel kulit mati."
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_kulit_milia",
+      "patterns": [
+        "Skincare untuk milia?",
+        "Skincare untuk menghilangkan milia?",
+        "skincare milia",
+        "milia skincare",
+        "skincare untuk milia"
+        
+      ],
+      "responses": [
+        "Ketika kulit wajahmu ada milia coba pakai skincare yang mempunyai kandungan seperti AHA & BHA, benzoil peroksida, vitamin C, dan salicylic acid."
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_muncul_milia",
+      "patterns": [
+        "Hal yang perlu dihindari munculnya milia",
+        "hindari milia",
+        "menghindari milia",
+        "hal yang harus dihindari agar tidak ada milia",
+        "supaya tidak ada milia"
+
+      ],
+      "responses": [
+        "Untuk meminimalisir datangnya milia di wajah, sebaiknya hindari konsumsi makanan cepat saji secara berlebihan, makanan yang mengandung kacang, cokelat, susu, keju,  dan hindari tidur larut malam ya!"
+      ]
+    }, 
+    { 
+      "tag": "pengertian_kerutan",
+      "patterns": [
+        "Wajah Kulit ku kerutan?",
+        "Apa itu kerutan?",
+        "Kulit wajahku terlihat kerutan dan garis halus",
+        "apa sih kerutan",
+        "wajahku berkerut",
+        "aku kerutan",
+        "kulit ku berkerut",
+        "kerutan",
+        "kerut",
+        "berkerut",
+        "garis halus",
+        "aduh kulit ku berkerut",
+        "garis halus nih",
+        "apa sih ciri ciri kerutan",
+        "apa ciri ciri kerutan",
+        "ciri ciri kerutan"
+
+
+      ],
+      "responses": [
+        "kerutan adalah keadaan dimana terjadinya  penurunan fungsi dari elastisitas wajah sehingga kulit mengalami pengenduran",
+        "Kerutan atau garis halus adalah retakan di kulit wajah yang muncul di area-area paling rentan seperti di area sudut, baik sudut mata dan sudut luar bibir"
+      ]
+    },
+    {
+      "tag": "penyebab_wajah_kulit_berkerut",
+      "patterns": [
+        "Apa penyebab kerutan?",
+        "sebab kerutan",
+        "sebab garis halus",
+        "muncul garis halus",
+        "Kenapa wajah kulit ku kerutan?",
+        "Apa faktor kulit kerutan?",
+        "Kenapa kulit kerutan muncul?"
+      ],
+      "responses": [
+        "Penyebab kulit kerutan bermacam-macam, yaitu karena Ketika cairan dalam tubuh tidak terpenuhi dengan baik, maka sel-sel tubuh mengalami dehidrasi. Sel-sel kulit yang dehidrasi akan mengganggu kondisi ideal kulit",
+        "Salah satu penyebab kulit berkerut adalah paparan sinar UV langsung di kulit dalam jangka waktu lama dapat merusak kesehatan kulit. Kulit akan kehilangan kekenyalannya, menjadi kering dan kusam, lalu memicu munculnya garis-garis halus"
+      ]
+    },
+    {
+      "tag": "solusi_wajah_kulit_kerutan",
+      "patterns": [
+        "Apa solusi untuk wajah kulit kerutan?",
+        "Apa solusi untuk wajah dengan garis halus?",
+        "solusi untuk garis halus",
+        "solusi wajah berkerut",
+        "garis halus solusi",
+        "solusi kerutan",
+        "agar kulit tidak berkerut",
+        "solusi wajah garis halus"
+        
+      ],
+      "responses": [
+        "Solusi untuk wajah berkerut adalah usahakan untuk menghindari paparan sinar matahari secara langsung dan selalu gunakan sunscreen sebelum melakukan aktivitas di luar ruangan.",
+        "Ketika kulitmu muncul garis halus oleskan pelembab untuk melembapkan kulit agar tidak menjadi lebih kering seiring bertambahnya usia, minum banyak air agar kelembapan dan elastisitas kulit tetap terjaga"
+      ]
+    },
+    {
+      "tag": "cara_merawat_wajah_kulit_kerutan",
+      "patterns": [
+        "Bagaimana cara merawat wajah kulit kerutan?",
+        "Tips merawat wajah kulit berkerut",
+        "Tips merawat kulit dengan garis halus",
+        "merawat kerutan",
+        "merawat garis halus",
+        "tips merawat kerutan",
+        "rawat kerutan",
+        "rawat garis halus",
+        "bagaimana merawat garis halus",
+        "tips merawat garis halus"
+
+      ],
+      "responses": [
+        "Cara merawat wajah kulit yang berkerut adalah rutin mencuci muka lalu pakai rangkaian skincare setelahnya, pelembab atau sunscreen sangat penting dipakai sepanjang hari apalagi saat beraktivitas di luar ruangan lho!",
+        "Jangan khawatir ya, nih Aghaskin ada beberapa tips, untuk merawat kerutan. Ada banyak cara yang bisa dilakukan, yaitu konsumsi makanan sehat seperti sayur dan buah juga dapat mempercepat penyembuhan kulit kerutan"
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_wajah_kulit_kerutan",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika wajah kulit kerutan?",
+        "Skincare untuk wajah kulit kerutan?",
+        "skincare wajah berkerut",
+        "skincare garis halus",
+        "skincare untuk garis halus",
+        "skincare untuk kerutan",
+        "skincare kerutan",
+        "skincare yang bagus untuk merawat kerutan",
+        "skincare menghilangkan kerutan"
+
+      ],
+      "responses": [
+        "Ketika kulit wajahmu kerutan atau terdapat garis halus coba pakai skincare yang mempunyai kandungan seperti retinoid, antioksidan, lactic acid, vitamin C. Setelah ini coba ya ganti skincare kamu dengan produk yang  mempunyai kandungan tesrsenbut."
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_kulit_kerutan",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat wajah kulit kerutan",
+        "hindari kerutan",
+        "hindari garis halus",
+        "menghindari garis halus",
+        "apa yang sebaiknya dilakukan untuk menghindari adanya kerutan dan garis halus"
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya wajah berkerut sebaiknya hindari konsumsi makanan cepat saji secara berlebihan, hindari soda dan kopi, dan hindari tidur larut malam"
+      ]
+    }, 
+    { 
+      "tag": "pengertian_kantung_mata",
+      "patterns": [
+        "kantung mata itu apa?",
+        "Apa itu kantung mata?",
+        "Kantung mataku gelap",
+        "kantung mata",
+        "kantung mataku besar",
+        "apa sih ciri ciri kantung mata",
+        "apa ciri ciri kantung mata",
+        "ciri ciri kantung mata"
+      ],
+      "responses": [
+        "Kantung mata adalah kondisi pembengkakan ringan yang terjadi di bawah mata.",
+        "kantung mata merupakan kondisi bagian bawah mata yang menebal akibat penumpukan cairan serta melemahnya jaringan sekitar"
+      ]
+    },
+    {
+      "tag": "penyebab_kantung_mata",
+      "patterns": [
+        "Apa penyebab kantung mata?",
+        "sebab kantung mata",
+        "kenapa ada kantung mata",
+        "muncul kantung mata",
+        "Apa faktor kantung mata muncul?",
+        "Kenapa kantung mata muncul?"
+      ],
+      "responses": [
+        "Penyebab kantung mata bermacam-macam, yaitu karena etensi cairan dapat dipengaruhi oleh hormon atau setelah mengonsumsi makanan tinggi garam. Menyebabkan adanya penumpukan cairan di sekitar mata (edema periorbital) sehingga membentuk kantung.",
+        "kantung mata juga bisa muncul akibat Saat tubuh kurang istirahat yang cukup, aliran darah tidak berjalan lancar ke sekitar mata. Akibatnya darah tersebut menumpuk di bawah mata."
+      ]
+    },
+    {
+      "tag": "solusi_untuk_kantung_mata",
+      "patterns": [
+        "Apa solusi untuk kantung mata?",
+        "solusi merawat kantung mata",
+        "apa solusi untuk kantung mata",
+        "solusi kantung mata",
+        "kantung mata solusi nya apa",
+        "solusi untuk kantung mata",
+        "apa sih solusi agar tidak ada kantung mata",
+        "Bagaimana cara menghilangkan kantung mata yang hitam?"
+        
+      ],
+      "responses": [
+       "Solusinya adalah coba untuk Kompres dengan air dingin atau es dapat mengurangi kantung mata yang bengkak akibat penyumbatan pembuluh darah, oleskan krim khusus mata untuk melembapkan kulit mata dan kurangi tidur terlalu larut malam"
+      ]
+      
+    },
+    {
+      "tag": "cara_merawat_kantung_mata",
+      "patterns": [
+        "Bagaimana cara merawat kantung mata?",
+        "Tips merawat kantung mata",
+        "merawat kantung mata",
+        "rawat kantung mata",
+        "tips merawat kantung mata",
+        "tips kantung mata",
+        "apa tips merawat kantung mata",
+        "bagaimana merawat kantung mata"
+
+      ],
+      "responses": [
+       "Rutin memakai krim mata pada malam hari sebelum tidur dan perbaiki jam tidur untuk mengurangi kantung mata" 
+      ]
+    },
+    {
+      "tag": "kandungan_skincare_untuk_kantung_mata",
+      "patterns": [
+        "Skincare apa yang harus aku pakai ketika ada kantung mata?",
+        "Skincare untuk kantung mata?",
+        "skincare kantung mata",
+        "skincare apa yang harusnya dipakai agar tidak muncul kantung mata"
+        
+      ],
+      "responses": [
+        "Ketika kantung mata coba pakai skincare yang mempunyai kandungan seperti hyaluronic acid, retinol, kafein, dimethicone, dan peptide. Kamu bisa cari produk yang mengandung kandungan tersebut ya, mulai sekarang coba pilih skincare yang mempunyai beberapa kandungan yang telah disebutkan"
+      ]
+    },
+    {
+      "tag": "hal_yang_harus_dihindari_agar_tidak_muncul_kantung mata",
+      "patterns": [
+        "Hal yang perlu dihindari pada saat kantung mata",
+        "hindari kantung mata",
+        "hal yang dihindari agar tidak ada kantung mata",
+        "menghindari kantung mata"
+      
+
+      ], 
+      "responses": [
+        "Untuk meminimalisir datangnya kantung mata di wajah, sebaiknya hindari konsumsi berlebihan makanan yang mengandung garam, makanan manis dan makanan instan, selain itu dan hindari tidur larut malam"
+      ]
+    },
+    {
+      "tag": "pengertian_double_cleansing",
+      "patterns": [
+        "apa yang dimaksud double ,cleansing?",
+        "pengertian double cleansing",
+        "apa iyu double cleansing",
+        "double cleansing",
+        "membersihkan muka secara 2 tahap",
+        "cuci muka dua kali"
+      ],
+      "responses":[
+        "Double cleansing adalah cara membersihkan wajah dengan melakukan dua tahap berbeda. Pertama, menggunakan micellar water, cleansing oil, milk cleanser. Selanjutnya, mencuci muka dengan facial wash. Double cleansing sangat penting dilakukan untuk mengangkat kotoran yang tak terlihat di wajah kita loh, Aghaskin sangat menyarankan kamu untuk melakukan double-cleansing ya!"
+      ]
+    },
+    {
+      "tag": "aturan_mencuci_muka",
+      "patterns": [
+        "Mencuci muka berapa kali dalam sehari?",
+        "mencuci muka berapa kali",
+        "berapa kali mencuci muka",
+        "jumlah mencuci muka",
+        "dalam sehari sebaiknya mencuci muka berapa kali"
+
+      ],
+      "responses":[
+        "Mencuci muka umumnya dilakukan dua kali sehari, yaitu pada pagi dan malam hari. Namun menurut American Academy of Dermatology Association, mencuci muka bisa dilakukan tiga kali sehari di pagi hari, malam hari, dan setelah berkeringat. So, sesuaikan dengan kebutuhan kamu ya"
+      ]
+    },
+    {
+      "tag": "basic_skincare",
+      "patterns": [
+        "Apa saja basic skincare?",
+        "Sebutkan basic skincare",
+        "basic skincare",
+        "apa itu basic skincare",
+        "apa sih basic skincare itu",
+        "basic skincare apa saja",
+        "step basic skincare"
+
+      ],
+      "responses":[
+        "Basic skincare adalah perawatan dasar pemeliharaan kulit kamu, yang pertama pembersih wajah atau cleanser, yang kedua pelembab atau moisturizer dan yang terakhir sunscreen"
+      ]
+    }, 
+
+    {
+      "tag": "urutan_pemakaian_skincare_pagi_hari",
+      "patterns": [
+        "Apa saja skincare yang dipakai pada pagi hari?",
+        "Morning skincare routine",
+        "urutan pemakaian skincare pagi hari",
+        "pagi hari",
+        "morning",
+        "skincare pagi hari",
+        "skincare untuk pagi",
+        "urutan skincare pagi",
+        "skincare pagi apa saja",
+        "step skincare pagi"
+      
+      ],
+      "responses":[
+        "Untuk urutan pemakaian skincare pada pagi hari kamu bisa mulai dengan membersihkan wajah, yang kedua memakai toner, lalu yang ketiga pakailah serum, selanjutnya pakai moisturizer, dan yang terakhir janga lupa pakai sunscreen ya!"
+      ]
+    },
+
+    {
+      "tag": "urutan_pemakaian_skincare_malam_hari",
+      "patterns": [
+        "Apa saja skincare yang dipakai pada malam hari?",
+        "night skincare routine",
+        "urutan pemakaian skincare malam hari",
+        "malam hari",
+        "night",
+        "skincare malam hari",
+        "skincare untuk malam",
+        "urutan skincare malam",
+        "skincare malam apa saja",
+        "step skincare malam hari"
+      ],
+      "responses":[
+        "Untuk urutan pemakaian skincare di malam hari kamu bisa mulai dengan melakukan double-cleansing menggunakan makeup remover/micellar water, yang kedua dilanjutkan dengan pembersih wajah, yang ke ketiga menggunakan pembersih wajah, keempat gunakan toner, selanjutnya pakai serum sesuai kebutuhan kulit kamu, jangan lupa pakai pelembab, optional juga kamu bisa menggunakan eyecream ya!"
+      ]
+    },
+
+    {
+      "tag": "takaran_pemakaian_micellar_water",
+      "patterns": [
+        "Aturan takaran pemakaian micellar water",
+        "Fungsi micellar water?",
+        "Micellar water",
+        "apa itu micellar water",
+        "hapus sisa make up",
+        "hapus make up",
+        "make-up remover",
+        "angkat sisa make up",
+        "cleansing oil",
+        "micellar water untuk apa" 
+
+      ],
+      "responses":[
+        " Micellar water berguna untuk mengangkat kotoran dan sisa makeup pada permukaan kulit wajah saja. Untuk pemakaian micellar water kamu bisa menggunakan kapas. lalu tuangkan micellar water ke kapasmu secukupnya ya!"
+      ]
+    },
+
+    {
+      "tag": "takaran_pemakaian_pembersih_wajah",
+      "patterns": [
+        "Aturan takaran pemakaian pembersih wajah",
+        "Fungsi pembersih wajah?",
+        "pembersih wajah",
+        "facial wash",
+        "sabun cuci muka",
+        "apa itu sabun cuci muka",
+        "sabun cuci",
+        "mencuci muka"
+      ],
+      "responses":[
+        "Pembersih wajah berguna untuk membersihkan kotoran dan mengangkat sel kulit mati. Untuk pemakaian pembersih wajah kamu bisa gunakan sebesar ukuran koin 100 rupiah atau sekitar 1 pump!"
+      ]
+    },
+
+    {
+      "tag": "takaran_pemakaian_toner",
+      "patterns": [
+        "Aturan takaran pemakaian toner",
+        "Fungsi toner",
+        "toner",
+        "apa itu toner",
+        "toner wajah",
+        "toner untuk apa",
+        "apa fungsi toner",
+        "toner buat apa sih",
+        "toner untuk apa sih",
+        "seberapa banyak memakai toner",
+        "pakai toner",
+        "anjuran pemakaian toner"
+
+      ],
+      "responses":[
+        "Toner wajah berguna untuk mempersiapkan kulit agar bisa menyerap pelembap dan serum dengan baik. Untuk pemakaian toner, Aghaskin menyarankan kamu untuk pakai seukuran 3-4 tetes atau seukuran sendok teh!"
+      ]
+    },
+
+    {
+      "tag": "takaran_pemakaian_serum",
+      "patterns": [
+        "Aturan takaran pemakaian serum",
+        "Fungsi serum",
+        "serum",
+        "kegunaan serum",
+        "takaran pake serum",
+        "Fungsi serum apa sih",
+        "pakai serum",
+        "apa itu toner",
+        "serum wajah",
+        "serum untuk apa",
+        "apa fungsi serum",
+        "serum buat apa sih",
+        "seberapa banyak memakai serum",
+        "anjuran pemakaian serum"
+      ],
+      "responses":[
+        "Pada umumnya serum berguna untuk melembabkan dan mencerahkan kulit.Untuk pemakaian serum cukup 3-4 tetes saja ya, jangan over lho!"
+      ]
+    },
+
+    {
+      "tag": "takaran_pemakaian_scrub_eksfoliasi",
+      "patterns": [
+        "Aturan takaran pemakaian scrub",
+        "physical exfoliator",
+        "Aturan takaran pemakaian scrub",
+        "Fungsi scrub",
+        "scrub wajah",
+        "scrub",
+        "kegunaan scrub",
+        "takaran pake scrub",
+        "Fungsi scrub apa sih",
+        "pakai scrub",
+        "apa itu scrub",
+        "scrub muka",
+        "scrub untuk apa",
+        "apa fungsi scrub",
+        "scrub buat apa sih",
+        "seberapa banyak memakai scrub",
+        "anjuran pemakaian scrub"
+      ],
+      "responses":[
+        "Scrub termasuk ke dalam physical exfoliator, berfungsi untuk mengangkat sel kulit yang ksar dan menggantikannya dengan sel kulit yang lebih halus. Takaran pemakaiannya cukup sebesar biji almond saja!"
+      ]
+    },
+
+    {
+      "tag": "aturan_pemakaian_moisturizer_atau_pelembab_wajah",
+      "patterns": [
+        "Aturan pemakaian moisturizer",
+        "Fungsi moisturizer",
+        "moisturizer",
+        "Aturan takaran pemakaian  moisturizer",
+        "Fungsi  moisturizer",
+        " moisturizer",
+        "moist",
+        "krim pelembab",
+        "kegunaan  moisturizer",
+        "takaran pake  moisturizer",
+        "Fungsi moisturizer apa sih",
+        "pakai moisturizer",
+        "apa itu  moisturizer",
+        "moisturizer wajah",
+        " moisturizer untuk apa",
+        "apa fungsi moisturizer",
+        " moisturizer buat apa sih",
+        "seberapa banyak memakai  moisturizer",
+        "anjuran pemakaian moisturizer"
+      ],
+      "responses":[
+        "Moisturizer atau krim pelembab berguna untuk menghidrasi kulit agar lembab dan menjaga kelembaban tersebut agar tidak mudah hilang dengan menahan kandungan air di dalam lapisan kulit. Pakailah moisturizer seukuran contact lensa mata"
+      ]
+    },
+
+    {
+      "tag": "aturan_pemakaian_sunscreen",
+      "patterns": [
+        "Aturan pemakaian sunscreen",
+        "Fungsi sunscreen",
+        "sunscreen",
+        "Aturan takaran pemakaian sunscreen",
+        "Fungsi sunscreen",
+        "sunscreen",
+        "sun",
+        "sinar UV",
+        "Terlindung dari sinar UV",
+        "Sinar matahari",
+        "kegunaan sunscreen",
+        "takaran pake sunscreen",
+        "Fungsi sunscreen apa sih",
+        "pakai sunscreen",
+        "apa itu sunscreen",
+        "sunscreen wajah",
+        "sunscreen untuk apa",
+        "apa fungsi moisturizer",
+        "sunscreen buat apa sih",
+        "seberapa banyak memakai sunscreen",
+        "anjuran pemakaian sunscreen"
+      ],
+      "responses":[
+        "Sunscreen berfungsi untuk membnatu perlindungan terhadap paparan sinar UV.Untuk pemakaian yang sempurna pakailah sunscreen seukuran 2 ruas jari!"
+      ]
+    },
+
+    {
+      "tag": "masker_wajah",
+      "patterns": [
+        "Aturan pemakaian masker wajah",
+        "Fungsi masker wajah",
+        "masker wajah",
+        "Aturan takaran pemakaian masker wajah",
+        "Fungsi masker wajah",
+        "masker wajah",
+        "masker",
+        "kegunaan masker wajah",
+        "takaran pake masker wajah",
+        "Fungsi masker wajah apa sih",
+        "pakaimasker wajah",
+        "apa itu masker wajah",
+        "masker muka",
+        "masker wajah untuk apa",
+        "apa fungsi masker wajah",
+        "masker wajah buat apa sih",
+        "seberapa banyak memakai masker wajah",
+        "anjuran pemakaian masker wajah"
+      ], 
+      "responses":[
+        "Masker wajah sering digunakan untuk memberikan nutrisi pada kulit wajah sekaligus membersihkan wajah dari sisa kotoran dan kulit mati. Masker wajah mempunyai banyak jenis diantaranya ada sheet mask, clay mask, mud mask, peel off mask, wash of mask, exfoliating mask. Kamu mau tahu tentang jenis masker yang mana nih, yuk tanyakan ke Aghaskin"
+      ]
+    },
+
+    {
+        "tag": "pemakaian_masker_wajah",
+        "patterns": [
+          "masker wajah berapa kali",
+          "pemakaian masker wajah",
+          "waktu memakai masker",
+          "berapa kali sebaiknya menggunakan masker",
+          "dipakai berapa kali sih masker wajah",
+          "anjuran pemakaian masker wajah",
+          "dalam 1 minggu dipakai berapa kali"
+        ], 
+        "responses":[
+          "Pemakaian masker wajah baiknya hanya 1-2 kali dalam 1 minggu, tetapi tergantung kondisi wajah dan masker apa yang kakmu gunakan, jadi disesuaikan lagi ya! "
+        ]
+      },
+
+    {
+      "tag": "aturan_pemakaian_eyecream",
+      "patterns": [
+        "Aturan pemakaian eye cream",
+        "Fungsi eye cream",
+        "eye cream",
+        "Aturan takaran pemakaian eye cream",
+        "Fungsi eye cream",
+        "eye cream itu apa",
+        "eye",
+        "kegunaan eye cream",
+        "takaran pake eye cream",
+        "Fungsi eye cream apa sih",
+        "pakai eye cream",
+        "apa itu eye cream",
+        "eye cream fungsi",
+        "eye cream untuk apa",
+        "apa fungsi eye cream",
+        "eye creambuat apa sih",
+        "seberapa banyak memakai eye cream",
+        "anjuran pemakaian eye cream"
+      ],
+      "responses":[
+        "Eyecream berfungsi untuk merawat kesehatan kulit di sekitar mata, tetapi juga mencegah munculnya tanda-tanda penuaan. Gunakan eyecream seukuran 1 bulir beras"
+      ]
+    },
+
+    {
+      "tag": "aturan_pemakaian_krim_malam_atau_sleeping_mask",
+      "patterns": [
+        "Aturan pemakaian sleeping mask",
+        "Fungsi sleeping mask",
+        "apa fungsi sleeping mask",
+        "sleeping mask",
+        "sleeping",
+        "Sleep",
+        "sleep mask",
+        "Aturan takaran pemakaian sleeping mask",
+        "Fungsi sleeping mask",
+        "sleeping mask itu apa",
+        "masker tidur",
+        "kegunaan sleeping mask",
+        "takaran pake sleeping mask",
+        "Fungsi sleeping mask apa sih",
+        "pakai sleeping mask",
+        "apa itu sleeping mask",
+        "sleeping mask fungsi",
+        "sleeping maskuntuk apa",
+        "apa fungsi masker tidur",
+        "sleeping mask buat apa sih",
+        "seberapa banyak memakai sleeping mask",
+        "anjuran pemakaian sleeping mask" 
+      ], 
+      "responses":[
+        "Sleeping mask berfungsi untuk mempertahankan kelembapan kulit, melindungi permukaan kulit, mencerahkan kulit dan memberikan efek calming pada wajah kita lho! Yuk pakai sleeping mask seukuran 1 ruas jari"
+      ]
+    },
+
+    {
+        "tag": "penjelasan_clay_mask",
+        "patterns": [
+          "masker wajah clay mask",
+          "Fungsi clay mask",
+          "clay mask",
+          "clay",
+          "apa itu clay mask",
+          "penggunaan clay mask",
+          "masker clay mask",
+          "Aturan pemakaian clay mask",
+          "Fungsi clay mask",
+          "Aturan takaran pemakaian clay mask",
+          "kegunaan clay mask",
+          "takaran pake clay mask",
+          "memakai clay mask",
+          "Fungsi clay mask apa sih",
+          "pakai clay mask",
+          "masker clay",
+          "clay mask untuk apa",
+          "apa fungsi clay mask",
+          "clay mask buat apa sih",
+          "seberapa banyak memakai clay mask",
+          "anjuran pemakaian clay mask"
+        ], 
+        "responses":[
+          "Berbahan dasar tanah liat. Clay mask adalah jenis masker wajah berbahan dasar tanah liat dengan kandungan mineral yang bermanfaat bagi kulit, berfungsi menyerap minyak dari kulit, membersihkan kulit dari kotoran dan sel kulit mati, serta mengatasi dan mencegah munculnya jerawat dan komedo. Dalam 1 minggu pakailah 1 -2 kali "
+        ]
+      },
+
+      {
+        "tag": "penjelasan_sheet_mask",
+        "patterns": [
+          "masker wajah sheet mask",
+          "Fungsi sheet mask",
+          "sheet mask",
+          "sheet",
+          "apa itu sheet mask",
+          "penggunaan sheet mask",
+          "masker sheet mask",
+          "Aturan pemakaian sheet mask",
+          "apa fungsisheet  mask",
+          "Aturan takaran pemakaian sheet  mask",
+          "sheet  mask itu apa",
+          "kegunaan sheet  mask",
+          "takaran pake sheet  mask",
+          "Fungsi sheet mask apa sih",
+          "pakai sheet mask",
+          "apa itu sheet mask",
+          "sheet mask fungsi",
+          "sheet mask untuk apa",
+          "apa fungsi sheet mask",
+          "sheet  buat apa sih",
+          "seberapa banyak memakai sheet  mask",
+          "anjuran pemakaian sheet mask"
+           
+
+        ], 
+        "responses":[
+          "Berbentuk seperti lembaran tisu, sheet mask berperan untuk melembapkan kulit wajah dan biasanya di dalam satu sachet sudah dilengkapi dengan essence serta antioksidan. Pakailah selama 15-20 menit maka kulit akan terasa lebih sejuk dan lembap loh, tidak perlu dibilas lagi ya. Pakailah 2-3 kali dalam seminggu"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_mud_mask",
+        "patterns": [
+          "masker wajah mud mask",
+          "Fungsi mud mask",
+          "mud mask",
+          "mud",
+          "apa itu mud mask",
+          "penggunaan mud mask",
+          "masker mud mask",
+          "masker wajah mud mask",
+          "Fungsi mud mask",
+          "penggunaan mud mask",
+          "masker mud mask",
+          "Aturan pemakaian mud mask",
+          "apa fungsi mud  mask",
+          "Aturan takaran pemakaian mud mask",
+          "mud mask itu apa",
+          "kegunaan mud mask",
+          "takaran pake mud mask",
+          "Fungsi mud mask apa sih",
+          "pakai mud mask",
+          "mud mask fungsi",
+          "mud mask untuk apa",
+          "apa fungsi mud mask",
+          "mud buat apa sih",
+          "seberapa banyak memakai mud mask",
+          "anjuran pemakaian mud mask"
+        ], 
+        "responses":[
+         "Berbahan dasar lumpur laut, mud mask berguna untuk memperlancar peredaran darah, menjaga elastisitas kulit, dan lebih hydrating.Dalam 1 minggu pakailah 1-2 kali "
+        ]
+      },
+
+      {
+        "tag": "penjelasan_peel_off_mask",
+        "patterns": [
+          "masker wajah peel off mask",
+          "Fungsi peel off mask",
+          "peel off mask",
+          "peel of",
+          "apa itu peel off mask",
+          "penggunaan peel off mask",
+          "masker peel off mask",
+          "masker muka peel offmask",
+          "Fungsipeel off mask",
+          "peel",
+          "apa peel off mask",
+          "peel off mask itu apa",
+          "penggunaanpeel off mask",
+          "masker peel off mask",
+          "masker wajah peel off mask",
+          "Fungsi peel off mask",
+          "penggunaan peel offmask",
+          "masker peel off mask",
+          "Aturan pemakaian peel off mask",
+          "apa fungsi peel off  mask",
+          "Aturan takaran pemakaian peel off mask",
+          "peel off mask itu apa",
+          "kegunaan peel off mask",
+          "takaran pake peel off mask",
+          "Fungsipeel off mask apa sih",
+          "pakai peel off mask",
+          "peel off mask fungsi",
+          "peel off mask untuk apa",
+          "apa fungsi peel off mask",
+          "peel off buat apa sih",
+          "seberapa banyak memakai peel off mask",
+          "anjuran pemakaian peel off mask"
+        ], 
+        "responses":[
+          "Berbentuk gel atau krim, peel off mask berfungsi untuk mengangkat komedo yang membandel, mengangkat minyak dan kotoran dan juga sel kulit mati. Peel off mask akan cepat mengering dan berubah tekstur menjadi seperti karet elastis yang bisa dikelupas. Dalam 1 minggu pakailah 1-2 kali ya!"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_exfoliating_mask",
+        "patterns": [
+          "masker wajah exfoliating mask",
+          "Fungsi exfoliating mask",
+          "exfoliating",
+          "exfo",
+          "apa itu exfoliating mask",
+          "penggunaan exfoliating mask",
+          "masker exfoliating mask",
+          "masker wajah exfoliatingmask",
+          "Fungsi exfoliating mask",
+          "exfoliating mask",
+          "exfoliating itu apa",
+          "apa itu exfoliating mask",
+          "penggunaan exfoliating mask",
+          "masker exfoliating mask",
+          "masker wajah exfoliating mask",
+          "Fungsi exfoliating mask",
+          "penggunaan exfoliating mask",
+          "masker exfoliating mask",
+          "Aturan pemakaian exfoliating mask",
+          "apa fungsi exfoliating mask",
+          "Aturan takaran pemakaian exfoliating mask",
+          "exfoliating mask itu apa",
+          "kegunaan exfoliating mask",
+          "takaran pake exfoliating mask",
+          "Fungsi exfoliating mask apa sih",
+          "pakai exfoliating mask",
+          "exfoliating mask fungsi",
+          "exfoliating mask untuk apa",
+          "apa fungsi exfoliating mask",
+          "exfoliating buat apa sih",
+          "seberapa banyak memakai exfoliating mask",
+          "anjuran pemakaian exfoliating mask"
+        ], 
+        "responses":[
+          "Exfoliating mask diformulasikan untuk mengangkat sel kulit mati. Masker ini mengandung bahan kimia aktif maka sebaiknya pakailah 1 kali dalam seminggu saja ya!"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_exfoliating_toner",
+        "patterns": [
+          "exfoliating toner",
+          "Fungsi exfoliasi toner",
+          "exfo toner",
+          "apa itu exfoliating toner",
+          "penggunaan exfoliating toner",
+          "toner exfoliating",
+          "toner exsfolisi",
+          "chemical",
+          "chemical exfo",
+          "exfoliating toner",
+          "Fungsi exfoliating toner",
+          "toner exfo",
+          "apa itu exfoliating toner",
+          "penggunaan exfoliating toner",
+          "masker exfoliating toner",
+          "masker wajah exfoliating toner",
+          "Fungsi exfoliating toner",
+          "penggunaan exfoliating toner",
+          "masker exfoliating toner",
+          "Aturan pemakaian exfoliating toner",
+          "apa fungsi exfoliating toner",
+          "Aturan takaran pemakaian exfoliating toner",
+          "exfoliating toner itu apa",
+          "kegunaan exfoliating toner",
+          "takaran pake exfoliating toner",
+          "fungsi memakai toner eksfoliasi",
+          "Fungsi exfoliating toner apa sih",
+          "pakai exfoliating toner",
+          "exfoliating toner fungsi",
+          "exfoliating toner untuk apa",
+          "apa fungsi exfoliating toner",
+          "exfoliating toner buat apa sih",
+          "seberapa banyak memakai exfoliating toner",
+          "anjuran pemakaian exfoliating toner"
+        ], 
+        "responses":[
+          "Exfoliating toner termasuk ke dalam chemical exfoliator, pada umumnya memiliki tekstur yang cair yang cepat meresap ke kulit. Gunakan kapas untuk mengaplikasikan nya ke wajah kalian.Pakailah 1 kali dalam seminggu."
+        ]
+      },
+
+      {
+        "tag": "penjelasan_exfoliating_serum",
+        "patterns": [
+          "exfoliating serum",
+          "Fungsi exfoliasi serum",
+          "exfo serum",
+          "serum exfoliasi",
+          "apa itu exfoliating serum",
+          "penggunaan exfoliating serum",
+          "serum exfoliating",
+          "serum exsfolisi",
+          "exfoliating serum",
+          "Fungsi exfoliating serum",
+          "serum exfo",
+          "apa itu exfoliating serum",
+          "penggunaan exfoliating serum",
+          "masker exfoliating serum",
+          "masker wajah exfoliating serum",
+          "Fungsi exfoliating serum",
+          "penggunaan exfoliating serum",
+          "masker exfoliating serum",
+          "Aturan pemakaian exfoliating serum",
+          "apa fungsi exfoliating serum",
+          "Aturan takaran pemakaian exfoliating serum",
+          "exfoliating serum itu apa",
+          "kegunaan exfoliating serum",
+          "takaran pake exfoliating serum",
+          "fungsi memakai serum eksfoliasi",
+          "Fungsi exfoliating serum apa sih",
+          "pakai exfoliating serum",
+          "exfoliating serumfungsi",
+          "exfoliating serum untuk apa",
+          "apa fungsi exfoliating serum",
+          "exfoliating serum buat apa sih",
+          "seberapa banyak memakai exfoliating serum",
+          "anjuran pemakaian exfoliating serum"
+        ], 
+        "responses":[
+          "Exfoliating serum biasanya memiliki tekstur kental sehinga bisa langsung diaplikasikan ke wajah, tungu sekitar 10 menit lalu bilas dengan air. Exfoliating serum biasanya dipakai 1 kali dalam seminggu"
+        ]
+      },
+
+      {
+        "tag": "perbedaan_eksfoliasi_dengan_peeling",
+        "patterns": [
+          "apa bedanya peeling dengan eksfoliasi",
+          "Fungsi peeling",
+          "peeling",
+          "apa itu peeling",
+          "penggunaan peeling",
+          "eksfoliasi dan peeling",
+          "peeling atau eksfoliasi",
+          "perbedaan eksfoliasi dan peeling",
+          "peeling serum"
+        ], 
+        "responses":[
+          "Eksfoliasi pada umumnya berguna untuk mengangkat kotoran yang mengendap di pori-pori dan mengangkat sel-sel kulit mati. Nah proses pengelupasan sel kulit mati ini disebut peeling."
+        ]
+      },
+
+      {
+        "tag": "penjelasan_perawatan_bibir",
+        "patterns": [
+          "bibir",
+          "skincare untuk bibir",
+          "perawatan bibir",
+          "merawat bibir",
+          "lip",
+          "lip care",
+          "perawatan untuk bibir"
+
+        ], 
+        "responses":[
+          "Memiliki bibir indah adalah dambaan semua kalangan terutama bagi wanita. Bibir adalah salah satu bagian yang harus dirawat juga. Ada banyak perawatan bibir yang bisa kamu pakai seperti lip scrub, lip mask, lip serum dan lip balm. Kamu mau tahu yang mana  nih, yuk tanyakan saja Aghaskin pasti bantu kamu. Coba ketik lip mask"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_lip_mask",
+        "patterns": [
+          "Aturan pemakaian lip mask",
+          "Fungsi lip mask",
+          "lip mask",
+          "Aturan takaran pemakaian lip mask",
+          "Fungsi lip mask",
+          "masker bibir",
+          "kegunaan lip mask",
+          "takaran pake lip mask",
+          "Fungsi lip mask apa sih",
+          "pakai lip mask",
+          "apa itu lip mask",
+          "lip mask untuk apa",
+          "apa fungsi lip mask",
+          "lip mask buat apa sih",
+          "seberapa banyak memakai lip mask",
+          "anjuran pemakaian lip mask"
+        ], 
+        "responses":[
+          "Lip mask adalah perawatan bibir yang berfungsi untuk melembapkan bibir kita. Lip mask sangat berguna banget bagi kamu yang memiliki bibir kering dan pecah-pecah. Jika dipakai secara rutin, lip mask bisa membuat bibir kamu cerah lho!"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_lip_scrub",
+        "patterns": [
+        "Aturan pemakaian lip scrub",
+        "Fungsi lip scrub",
+        "lip scrub",
+        "Aturan takaran pemakaian scrub bibir",
+        "Fungsi lip scrub ",
+        "scrub lip",
+        "scrub bibir",
+        "kegunaan lip scrub",
+        "takaran pake lip scrub",
+        "Fungsi lip scrub apa sih",
+        "pakailip scrub",
+        "apa itu lip scrub",
+        "masker bibir untuk apa",
+        "apa fungsi scrub bibir",
+        "lip scrub buat apa sih",
+        "seberapa banyak memakai lip scrub",
+        "anjuran pemakaian lip scrub"
+        ], 
+        "responses":[
+          "Lip scrub berfungsi untuk mencerahkan bibir dan membersihkannya dari sel kulit mati. Aplikasikan lip scrub ini pada bibir dan diamkan selama 15 menit sebelum diusap dengan lembut sehingga sel kulit mati dapat terangkat"
+        ]
+      },
+
+      {
+        "tag": "penjelasan_lip_serum",
+        "patterns": [
+        "Aturan pemakaian lip serum",
+        "Fungsi lip serum",
+        "lip serum",
+        "Aturan takaran pemakaian serum bibir",
+        "Fungsi serum bibir",
+        "serum bibir",
+        "kegunaan serum bibir",
+        "takaran pake mserum bibir",
+        "Fungsi serum bibir apa sih",
+        "pakai serum bibir",
+        "apa itu serum bibir",
+        "serum bibir untuk apa",
+        "apa fungsi serum bibir",
+        "serum bibir buat apa sih",
+        "seberapa banyak memakai serum bibir",
+        "anjuran pemakaian serum bibir"
+          
+        ], 
+        "responses":[
+          "Lip serum berfungsi untuk menutrisi bibir agar semakin lembap dan cerah. Lip serum kerap menjadi pilihan terbaik buat kita yang pengin membuat bibir tampak lebih pink dan cerah seketika tanpa lipstik."
+        ]
+      },
+
+      {
+        "tag": "penjelasan_lip_balm",
+        "patterns": [
+        "Aturan pemakaian lip balm",
+        "Fungsi lip balm",
+        "lip balm",
+        "Aturan takaran pemakaian lip balm",
+        "Fungsi lip balm",
+        "kegunaan lip balm",
+        "takaran pake lip balm",
+        "Fungsi lip balm apa sih",
+        "pakailip balm",
+        "apa itu lip balm",
+        "lip balm untuk apa",
+        "apa fungsi lip balm",
+        "lip balm buat apa sih",
+        "seberapa banyak memakai lip balm",
+        "anjuran pemakaian lip balm"
+          
+        ], 
+        "responses":[
+          "Lip balm adalah produk perawatan bibir yang berfungsi untuk melembabkan bibir, menyehatkan dan mencerahkan. Biasanya lip balm digunakan sebelum mengaplikasikan lipstik ke bibir"
+        ]
+      },
+
+      
+      {
+        "tag": "penjelasan_obat_jerawat",
+        "patterns": [
+          "obat jerawat",
+          "apa obat jerawat",
+          "obat untuk jerawat",
+          "fungsi obat jerawat",
+          "apa itu obat jerawat",
+          "obat jerawat untuk apa"
+          
+        ], 
+        "responses":[
+          "Jika jerawat kamu sedang meradang, pakailah obat totol jerawat. Caranya cukup aplikasikan saja ke jerawat yang sedang meradang. Cara kerja obat ini yaitu membunuh bakteri penyebab jerawat dan membantu mengurangi peradangan."
+    ]
+    }
+  ]
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
